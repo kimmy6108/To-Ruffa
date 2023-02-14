@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>To: Ruffa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Patrick+Hand&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Lato', sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+.header {
+    position: absolute;
+    //background-image: url('./HEADER_DESIGN_FINAL_FR.png');
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 2;
+    top: 0px;
+}
+
+.center {
+  width: 100%;
+}
+
+.main {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+
+  .header h1 {
+    position: relative;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    z-index: 1;
+    top: 210px; 
+    margin-left: 40px;
+  }
+
+.header p {
+  position: absolute;
+  font-size: 19px !important;
+  width: 550px;
+  text-align: left;
+  top: 310px;
+  font-family: 'Urbanist', sans-serif !important;
+  margin-left: 40px;
+  letter-spacing: 0.5px;
+}
+
+.header .playlist {
+  text-align: center;
+}
+
+.grid-t h1 {
+    position: absolute;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    z-index: 2;
+    right: 100px;
+    top: -17px;
+  }
+
+.header .playlist {
+    position: absolute;
+    text-align: center;
+    top: 600px;
+    left: 155px;
+  }
+
+  .phonograph {
+    position: absolute;
+    left: 110px;
+    top: 570px;
+    width: 204px;
+  }
+
+  .playlist-one {
+    position: absolute;
+    top: 670px;
+    left: 377px;
+    width: 300px !important;
+    height: 300px;
+  }
+
+  .fact {
+    position: absolute !important;
+    font-size: 30px !important;
+    top: 800px !important;
+    width: 342px !important;
+    margin-left: -20px !important;
+  }
+
+  .fact-t {
+    position: absolute !important;
+    top: 850px !important;
+    margin-left: -20px !important;
+    width:329px !important;
+  }
+
+  .grid-t iframe {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+  }
+
+  .i-one {
+    right: 500px;
+    top: 85px;
+  }
+
+  .i-two {
+    position: absolute;
+    right: 100px;
+    top: 270px;
+  }
+
+  .i-three {
+    position: absolute;
+    right: 500px;
+    top: 455px;
+  }
+
+  .kitty1 {
+    position: absolute;
+    font-size: 25px;
+    right: 30px;
+    top: 100px;
+    width: 300px;
+    z-index: 3;
+  }
+
+  .kitty2 {
+    position: absolute;
+    font-size: 27px;
+    right: 430px;
+    top: 285px;
+    width: 200px;
+    z-index: 3;
+  }
+
+  .kitty3 {
+    position: absolute;
+    font-size: 25px;
+    right: 30px;
+    top: 489px;
+    width: 300px;
+    z-index: 3;
+  }
+
+  .pusa1 {
+    position: absolute;
+    top: 620px;
+    left: 18px;
+    width: 107px;
+  }
+
+  .pusa2 {
+    position: absolute;
+    top: 90px;
+    right: 338px;
+    width: 150px;
+  }
+
+  .pusa3 {
+    position: absolute;
+    top: 270px;
+    right: 658px;
+    width: 140px;
+  }
+
+  .pusa4 {
+    position: absolute;
+    top: 450px;
+    right: 338px;
+    width: 140px;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 623px;
+    left: 319px;
+    width: 70px;
+  }
+
+  @media screen and (min-width: 1800px) {
+  body {
+    overflow: hidden;
+  }
+
+  .header h1 {
+    position: relative;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+    z-index: 1;
+    top: 260px; 
+    margin-left: 40px;
+  }
+
+  .header p {
+    position: absolute;
+    font-size: 20px;
+    width: 760px;
+    text-align: left;
+    top: 380px;
+    margin-left: 40px;
+  }
+
+  .header .playlist {
+    position: absolute;
+    text-align: center;
+    top: 600px;
+    left: 175px;
+  }
+
+  .phonograph {
+    position: absolute;
+    left: 110px;
+    top: 570px;
+    width: 230px;
+  }
+
+  .playlist-one {
+    position: absolute;
+    top: 670px;
+    left: 435px;
+  }
+
+  .fact {
+    position: absolute !important;
+    font-size: 30px !important;
+    top: 800px !important;
+    width: 500px !important;
+    margin-left: -20px !important;
+  }
+
+  .fact-t {
+    position: absolute !important;
+    top: 850px !important;
+    margin-left: -20px !important;
+    width: 420px !important;
+  }
+
+  .grid-t iframe {
+    position: absolute;
+    width: 500px;
+  }
+
+  .i-one {
+    right: 540px;
+    top: 85px;
+  }
+
+  .i-two {
+    position: absolute;
+    right: 100px;
+    top: 270px;
+  }
+
+  .i-three {
+    position: absolute;
+    right: 540px;
+    top: 455px;
+  }
+
+  .kitty1 {
+    position: absolute;
+    font-size: 25px;
+    right: 50px;
+    top: 100px;
+    width: 300px;
+    z-index: 3;
+  }
+
+  .kitty2 {
+    position: absolute;
+    font-size: 27px;
+    right: 630px;
+    top: 285px;
+    width: 200px;
+    z-index: 3;
+  }
+
+  .kitty3 {
+    position: absolute;
+    font-size: 25px;
+    right: 50px;
+    top: 489px;
+    width: 300px;
+    z-index: 3;
+  }
+
+  .pusa1 {
+    position: absolute;
+    top: 620px;
+    left: 18px;
+    width: 120px;
+  }
+
+  .pusa2 {
+    position: absolute;
+    top: 90px;
+    right: 368px;
+    width: 150px;
+  }
+
+  .pusa3 {
+    position: absolute;
+    top: 270px;
+    right: 858px;
+    width: 140px;
+  }
+
+  .pusa4 {
+    position: absolute;
+    top: 450px;
+    right: 368px;
+    width: 140px;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 630px;
+    left: 360px;
+    width: 70px;
+  }
+
+  .grid-t h1 {
+    position: absolute;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    z-index: 2;
+    right: 300px;
+    top: -17px;
+  }
+}
+
+  /* End responsive */
+
+footer {
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    bottom: -50px;
+    right: 30px;
+    background-color: pink;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer p {
+    position: relative !important;
+    top: 10px !important;
+    font-family: 'Trirong', sans-serif !important;
+}
+
+.main {
+  padding-left: 30px;
+}
+
+.grid-t {
+  position: absolute;
+  right: -30px;
+  width: 100%;
+  height: 500px;
+}
+
+
+</style>
+
+
+
+
+<!-- Header -->
+  <img src="./HEADER_DESIGN_FINAL_FR.png" alt="centered image" class="center">
+<div class="header">
+  <h1>Okay, here we go...</h1>
+  <p>I never expected to like you this much, or to have you on my mind so often. I remember the first time I realized I liked you. I started doing it as a joke with my friends. I was overwhelmed and scared because I couldn't get over the possibility of you leaving PSD.
+    <br>
+    I value the friendship we've developed over the last few months, and sometimes I believe we were destined to be friends because we have so much in common like literally.</p>
+    <p class="playlist">I made you multiple playlists but <br> this is my favorite one</p>
+    <img class="pusa1" src="./kitty1.jpg" alt="phonograph">
+    <img class="phonograph" src="./phonograph.png" alt="phonograph">
+    <img class="arrow" src="./arrow.png" alt="arrow">
+    <iframe class="playlist-one" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2h3YnciOAym0CmtlAGCTIz?utm_source=generator" width="375px" height="252" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <div class="main">
+      <h1 class="fact">fun fact</h1>
+      <p class="fact-t">I would sometimes write long love letters to you in Russian, English, and Tagalog in my math notes or on my hand</p>
+    </div>
+</div>
+<div class="grid-t">
+  <h1>Songs that remind me of you:</h1>
+  <iframe class="i-one" style="border-radius:12px" src="https://open.spotify.com/embed/track/0JXXNGljqupsJaZsgSbMZV?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <p class="kitty1" style="font-family: 'Lato', sans-serif;">"Love you like a brother. Treat you like a friend. Respect you like a lover"</p>
+  <img src="./kitty2.png" class="pusa2" alt="hello pusa">
+  <iframe class="i-two" style="border-radius:12px" src="https://open.spotify.com/embed/track/7I1kle4TNmkfednJDKo8GR?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <p class="kitty2" style="font-family: 'Lato', sans-serif;">"If you want to, only if you want to"</p>
+  <img src="./kitty3.png" class="pusa3" alt="hello pusa">
+  <iframe class="i-three" style="border-radius:12px" src="https://open.spotify.com/embed/track/5xA5MggKc3aQxuOzNzPUWB?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <img src="./kitty4.jpg" class="pusa4" alt="hello pusa">
+  <p class="kitty3" style="font-family: 'Lato', sans-serif;">"And I don't even like you that much Wait, I do, fuck"</p>
+</div>
+
+
+
+<!-- Footer -->
+<footer style="z-index: 4;">
+    <p>- Love, Jaybelle ❤️</p>
+</footer>
+
+
+</body>
+</html>
